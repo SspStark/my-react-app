@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Create a repository and push the code.
 - In terminal enter `npm install gh-pages --save-dev`
 - After Installing gh-pages, in package.json file, at top, above "name" add </br> `"homepage": "http://<githubUsername>.github.io/<repositoryName>"`
-- In the same file , in scripts below start add </br> `"predeploy": "npm run build"` & `"deploy": "gh-pages -d build"` and save the file.
+- In the same file , in scripts below "start" add </br> `"predeploy": "npm run build"` & `"deploy": "gh-pages -d build"` and save the file.
 - now commit the changes to repository.
 -  After finishing commit, now enter `npm run deploy` after completing you will see **Published** in terminal.
 -  Now go to the repository>settings>pages> you can see the website link.
